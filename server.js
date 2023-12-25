@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 1500;
+const port = 3500;
 const cors = require('cors'); // Import the cors package
 
 // Serve static files from the 'public' directory
