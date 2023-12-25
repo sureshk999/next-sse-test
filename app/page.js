@@ -22,10 +22,11 @@ export default function Test() {
 
   return (
     <div>
-      <h1>Test SSE</h1>
-      {messages.map((msg, index) => (
-        <p key={index}>{msg}</p>
-      ))}
-    </div>
+    <h1>Test SSE React Native App</h1>
+    <h3>if this is working, you should see messages below</h3>
+    {messages.map((msg, index) => (
+      <p key={index}>{msg}</p>
+    ))}
+  </div>
   );
 }
